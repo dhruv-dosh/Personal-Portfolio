@@ -28,7 +28,7 @@ header {
     top: 0;
     z-index: 10;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    background: rgba(255, 255, 255, 0.0); /* Semi-transparent */
+    background-color: #2d2d2d; /* Semi-transparent */
 }
 
 .logo {
@@ -38,7 +38,7 @@ header {
 
 .logo a {
     text-decoration: none;
-    color: black;
+    color:  hsl(189, 37%, 70%);
 }
 
 nav ul {
@@ -53,7 +53,7 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color: black;
+    color:  hsl(189, 37%, 70%);
     transition: color 0.3s ease;
 }
 
@@ -295,14 +295,15 @@ footer {
         flex-direction: column;
     }
     .about{
-        height: 70vh;
+        padding-top: 25vh;
+        height: 100vh;
     }
     .intro{
         padding-top: 25vh;
-        height: 90vh;
+        height: 65vh;
     }
     .aboutcard {
-        max-width: 90%;
+        max-width: 87%;
     }
 
     .skills-container {
