@@ -67,7 +67,7 @@ nav ul li a:hover {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    min-height: 100vh;
+    /* min-height: 100vh; */
     padding-top: 80px;
     background: rgba(255, 255, 255, 0.4);
 }
@@ -108,8 +108,9 @@ nav ul li a:hover {
 /* About Section Styling */
 .about {
     text-align: center;
-    padding: 50px;
+    /* padding: 50px; */
     z-index: 1;
+    height: 100vh;
 }
 
 .aboutcard {
@@ -134,13 +135,11 @@ nav ul li a:hover {
     max-width: 20%;
     color: rgb(61, 61, 61);
     margin: 0 auto;
-    border: 1px solid rgb(61, 61, 61);
     border-radius: 10px;
     transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 .aboutcard h5 a:hover {
-    border: 1px solid rgb(61, 61, 61);
     background-color: rgb(61, 61, 61);
     color: hsl(189, 37%, 95%);
 }
@@ -295,7 +294,13 @@ footer {
         padding: 50px;
         flex-direction: column;
     }
-
+    .about{
+        height: 70vh;
+    }
+    .intro{
+        padding-top: 20vh;
+        height: 86vh;
+    }
     .aboutcard {
         max-width: 90%;
     }
@@ -346,7 +351,10 @@ footer {
     .intro p {
         font-size: 1rem;
     }
-
+    .buttons a{
+        font-size: 20px;
+        padding: 4px 10px;
+    }
     .contact-container {
         padding: 30px;
     }
