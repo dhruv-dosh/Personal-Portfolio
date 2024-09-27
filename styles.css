@@ -20,7 +20,7 @@ body {
 /* Header Styling */
 header {
     width: 100%;
-    padding: 20px;
+    padding: 6px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -295,12 +295,12 @@ footer {
         flex-direction: column;
     }
     .about{
-        padding-top: 25vh;
+        padding-top: 20vh;
         height: 100vh;
     }
     .intro{
         padding-top: 25vh;
-        height: 65vh;
+        height: 70vh;
     }
     .aboutcard {
         max-width: 87%;
